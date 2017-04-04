@@ -30,8 +30,8 @@ class PlaceDB{
         let place = NSManagedObject(entity: entity!, insertInto: context)
         place.setValue(placeDic["name"], forKey: "name")
         place.setValue(placeDic["desc"], forKey: "desc")
-        place.setValue(placeDic["lat"], forKey: "lat")
-        place.setValue(placeDic["lon"], forKey: "lon")
+        place.setValue(placeDic["lat"], forKey: "latitud")
+        place.setValue(placeDic["lon"], forKey: "longitud")
         place.setValue(placeDic["ranking"], forKey: "ranking")
         
         do{
@@ -56,9 +56,9 @@ class PlaceDB{
     }
     
     func addTempPlaces(){
-        let dic1:NSDictionary = ["name":"Prueba","lat":"1.2321323","lon":"-98.3432423","desc":"Realizando un test","ranking":2.5]
+        let dic1:NSDictionary = ["name":"Prueba","lat":1.2321323,"lon":-98.3432423,"desc":"Realizando un test","ranking":2.5]
         savePlace(dic1)
-        let dic2:NSDictionary = ["name":"Prueba1","lat":"1.2321323","lon":"-98.3432423","desc":"Realizando un test","ranking":4.0]
+        let dic2:NSDictionary = ["name":"Prueba1","lat":1.2321323,"lon":-98.3432423,"desc":"Realizando un test","ranking":4.0]
         savePlace(dic2)
     }
     

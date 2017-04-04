@@ -14,7 +14,7 @@ class PlacesListTableViewController: UITableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         //placeBD.addTempPlaces()
-        print("dsadas \(placeBD.places)")
+        //print("dsadas \(placeBD.places)")
         // Uncomment the following line to preserve selection between presentations
         // self.clearsSelectionOnViewWillAppear = false
 
