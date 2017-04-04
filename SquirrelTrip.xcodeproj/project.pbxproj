@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7ED6C0D67279DD0BEEBD6DAB /* Pods_SquirrelTrip.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 494FC9C5A141540D7E8C7E65 /* Pods_SquirrelTrip.framework */; };
 		FFDC3D0F1E823F7A0013CB7F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFDC3D0E1E823F7A0013CB7F /* AppDelegate.swift */; };
 		FFDC3D111E823F7A0013CB7F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFDC3D101E823F7A0013CB7F /* ViewController.swift */; };
 		FFDC3D141E823F7B0013CB7F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FFDC3D121E823F7B0013CB7F /* Main.storyboard */; };
@@ -34,6 +35,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		494FC9C5A141540D7E8C7E65 /* Pods_SquirrelTrip.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SquirrelTrip.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC0A73D17C9659A4B2B3DE7B /* Pods-SquirrelTrip.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SquirrelTrip.release.xcconfig"; path = "Pods/Target Support Files/Pods-SquirrelTrip/Pods-SquirrelTrip.release.xcconfig"; sourceTree = "<group>"; };
+		F0E43F95A0E0AF465E2D655B /* Pods-SquirrelTrip.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SquirrelTrip.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SquirrelTrip/Pods-SquirrelTrip.debug.xcconfig"; sourceTree = "<group>"; };
 		FFDC3D0B1E823F790013CB7F /* SquirrelTrip.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SquirrelTrip.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FFDC3D0E1E823F7A0013CB7F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FFDC3D101E823F7A0013CB7F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -54,6 +58,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7ED6C0D67279DD0BEEBD6DAB /* Pods_SquirrelTrip.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +79,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2859B243266BF32C5A697916 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F0E43F95A0E0AF465E2D655B /* Pods-SquirrelTrip.debug.xcconfig */,
+				EC0A73D17C9659A4B2B3DE7B /* Pods-SquirrelTrip.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		2A646473783D35414CB8008D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				494FC9C5A141540D7E8C7E65 /* Pods_SquirrelTrip.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		FFDC3D021E823F760013CB7F = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +103,8 @@
 				FFDC3D221E823F7C0013CB7F /* SquirrelTripTests */,
 				FFDC3D2D1E823F7D0013CB7F /* SquirrelTripUITests */,
 				FFDC3D0C1E823F790013CB7F /* Products */,
+				2859B243266BF32C5A697916 /* Pods */,
+				2A646473783D35414CB8008D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -132,9 +156,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FFDC3D331E823F7D0013CB7F /* Build configuration list for PBXNativeTarget "SquirrelTrip" */;
 			buildPhases = (
+				4FAA5AA7EDB31D083FE01A81 /* [CP] Check Pods Manifest.lock */,
 				FFDC3D071E823F790013CB7F /* Sources */,
 				FFDC3D081E823F790013CB7F /* Frameworks */,
 				FFDC3D091E823F790013CB7F /* Resources */,
+				07EC9A4A9E5D556290AF9165 /* [CP] Embed Pods Frameworks */,
+				E7C990FB6333C2F808F07835 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -253,6 +280,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		07EC9A4A9E5D556290AF9165 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SquirrelTrip/Pods-SquirrelTrip-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4FAA5AA7EDB31D083FE01A81 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E7C990FB6333C2F808F07835 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SquirrelTrip/Pods-SquirrelTrip-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		FFDC3D071E823F790013CB7F /* Sources */ = {
@@ -410,6 +485,7 @@
 		};
 		FFDC3D341E823F7D0013CB7F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F0E43F95A0E0AF465E2D655B /* Pods-SquirrelTrip.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = SquirrelTrip/Info.plist;
@@ -422,6 +498,7 @@
 		};
 		FFDC3D351E823F7D0013CB7F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EC0A73D17C9659A4B2B3DE7B /* Pods-SquirrelTrip.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = SquirrelTrip/Info.plist;

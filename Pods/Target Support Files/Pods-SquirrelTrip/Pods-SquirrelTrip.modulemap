@@ -1,0 +1,6 @@
+framework module Pods_SquirrelTrip {
+  umbrella header "Pods-SquirrelTrip-umbrella.h"
+
+  export *
+  module * { export * }
+}

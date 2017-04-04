@@ -1,8 +1,6 @@
-source 'https://github.com/CocoaPods/Specs.git'
 platform :ios, '10.0'
-use_frameworks!
-
-target ‘squirrelTrip’ do
-	pod 'Cosmos', '~> 7.0'
+source 'https://github.com/CocoaPods/Specs.git'
+target 'SquirrelTrip' do
+	use_frameworks!
 	pod 'Firebase/Core'
 end
