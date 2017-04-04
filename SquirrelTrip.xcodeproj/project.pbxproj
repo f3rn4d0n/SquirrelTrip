@@ -13,7 +13,10 @@
 		A01418281E940FB600390CAF /* SquirrelTrip.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A01418261E940FB600390CAF /* SquirrelTrip.xcdatamodeld */; };
 		A014182A1E94158D00390CAF /* clock.png in Resources */ = {isa = PBXBuildFile; fileRef = A01418291E94158D00390CAF /* clock.png */; };
 		A014182C1E9415FB00390CAF /* map.png in Resources */ = {isa = PBXBuildFile; fileRef = A014182B1E9415FB00390CAF /* map.png */; };
-		FF99BDF41E936B7D009D874B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FF99BDE41E936B7D009D874B /* GoogleService-Info.plist */; };
+		A01418381E944D5C00390CAF /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A01418371E944D5C00390CAF /* GoogleService-Info.plist */; };
+		A014183A1E94582600390CAF /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = A01418391E94582600390CAF /* User.swift */; };
+		A014183C1E945ACF00390CAF /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A014183B1E945ACF00390CAF /* AdSupport.framework */; };
+		A014183E1E945EEA00390CAF /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A014183D1E945EEA00390CAF /* GoogleService-Info.plist */; };
 		FF99BDF51E936B7D009D874B /* language.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF99BDE51E936B7D009D874B /* language.swift */; };
 		FF99BDF61E936B7D009D874B /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF99BDE61E936B7D009D874B /* LoginViewController.swift */; };
 		FF99BDF71E936B7D009D874B /* PlaceDB.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF99BDE71E936B7D009D874B /* PlaceDB.swift */; };
@@ -59,9 +62,12 @@
 		A01418271E940FB600390CAF /* SquirrelTrip.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SquirrelTrip.xcdatamodel; sourceTree = "<group>"; };
 		A01418291E94158D00390CAF /* clock.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = clock.png; sourceTree = "<group>"; };
 		A014182B1E9415FB00390CAF /* map.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = map.png; sourceTree = "<group>"; };
+		A01418371E944D5C00390CAF /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		A01418391E94582600390CAF /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		A014183B1E945ACF00390CAF /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		A014183D1E945EEA00390CAF /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		EC0A73D17C9659A4B2B3DE7B /* Pods-SquirrelTrip.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SquirrelTrip.release.xcconfig"; path = "Pods/Target Support Files/Pods-SquirrelTrip/Pods-SquirrelTrip.release.xcconfig"; sourceTree = "<group>"; };
 		F0E43F95A0E0AF465E2D655B /* Pods-SquirrelTrip.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SquirrelTrip.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SquirrelTrip/Pods-SquirrelTrip.debug.xcconfig"; sourceTree = "<group>"; };
-		FF99BDE41E936B7D009D874B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		FF99BDE51E936B7D009D874B /* language.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = language.swift; sourceTree = "<group>"; };
 		FF99BDE61E936B7D009D874B /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		FF99BDE71E936B7D009D874B /* PlaceDB.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaceDB.swift; sourceTree = "<group>"; };
@@ -94,6 +100,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A014183C1E945ACF00390CAF /* AdSupport.framework in Frameworks */,
 				A01418191E93EA2800390CAF /* MapKit.framework in Frameworks */,
 				7ED6C0D67279DD0BEEBD6DAB /* Pods_SquirrelTrip.framework in Frameworks */,
 			);
@@ -128,6 +135,7 @@
 		2A646473783D35414CB8008D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				A014183B1E945ACF00390CAF /* AdSupport.framework */,
 				A01418181E93EA2800390CAF /* MapKit.framework */,
 				494FC9C5A141540D7E8C7E65 /* Pods_SquirrelTrip.framework */,
 			);
@@ -175,6 +183,7 @@
 		FF99BE031E936BAA009D874B /* UI */ = {
 			isa = PBXGroup;
 			children = (
+				A01418371E944D5C00390CAF /* GoogleService-Info.plist */,
 				FF99BDEB1E936B7D009D874B /* PlacesTableViewCell.swift */,
 				FF99BDEC1E936B7D009D874B /* PlacesTableViewCell.xib */,
 				FF99BDF21E936B7D009D874B /* StarButton.swift */,
@@ -195,6 +204,7 @@
 			isa = PBXGroup;
 			children = (
 				A01418261E940FB600390CAF /* SquirrelTrip.xcdatamodeld */,
+				A01418391E94582600390CAF /* User.swift */,
 				FF99BDE71E936B7D009D874B /* PlaceDB.swift */,
 			);
 			name = DataBase;
@@ -241,10 +251,10 @@
 				FF99BE051E936BBE009D874B /* DataBase */,
 				FF99BE041E936BB3009D874B /* Storyboard */,
 				FF99BE031E936BAA009D874B /* UI */,
-				FF99BDE41E936B7D009D874B /* GoogleService-Info.plist */,
 				FFDC3D0E1E823F7A0013CB7F /* AppDelegate.swift */,
 				FFDC3D151E823F7B0013CB7F /* Assets.xcassets */,
 				FFDC3D171E823F7B0013CB7F /* LaunchScreen.storyboard */,
+				A014183D1E945EEA00390CAF /* GoogleService-Info.plist */,
 				FFDC3D1A1E823F7B0013CB7F /* Info.plist */,
 			);
 			path = SquirrelTrip;
@@ -379,10 +389,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				A014181C1E93EBF000390CAF /* xochimilco.jpg in Resources */,
+				A01418381E944D5C00390CAF /* GoogleService-Info.plist in Resources */,
+				A014183E1E945EEA00390CAF /* GoogleService-Info.plist in Resources */,
 				A014182A1E94158D00390CAF /* clock.png in Resources */,
 				A014182C1E9415FB00390CAF /* map.png in Resources */,
 				FFDC3D191E823F7B0013CB7F /* LaunchScreen.storyboard in Resources */,
-				FF99BDF41E936B7D009D874B /* GoogleService-Info.plist in Resources */,
 				FFDC3D161E823F7B0013CB7F /* Assets.xcassets in Resources */,
 				FFDC3D141E823F7B0013CB7F /* Main.storyboard in Resources */,
 				FF99BDFC1E936B7D009D874B /* PlacesTableViewCell.xib in Resources */,
@@ -466,6 +477,7 @@
 				FF99BDF91E936B7D009D874B /* PlacesListTableViewController.swift in Sources */,
 				FF99BDFA1E936B7D009D874B /* PlacesOnMapViewController.swift in Sources */,
 				FF99BDFF1E936B7D009D874B /* SignUpViewController.swift in Sources */,
+				A014183A1E94582600390CAF /* User.swift in Sources */,
 				FF99BDFB1E936B7D009D874B /* PlacesTableViewCell.swift in Sources */,
 				FFDC3D0F1E823F7A0013CB7F /* AppDelegate.swift in Sources */,
 				FF99BDF81E936B7D009D874B /* PlacesDetailTableViewController.swift in Sources */,
