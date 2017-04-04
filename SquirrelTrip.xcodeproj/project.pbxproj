@@ -8,6 +8,21 @@
 
 /* Begin PBXBuildFile section */
 		7ED6C0D67279DD0BEEBD6DAB /* Pods_SquirrelTrip.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 494FC9C5A141540D7E8C7E65 /* Pods_SquirrelTrip.framework */; };
+		FF99BDF41E936B7D009D874B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FF99BDE41E936B7D009D874B /* GoogleService-Info.plist */; };
+		FF99BDF51E936B7D009D874B /* language.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF99BDE51E936B7D009D874B /* language.swift */; };
+		FF99BDF61E936B7D009D874B /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF99BDE61E936B7D009D874B /* LoginViewController.swift */; };
+		FF99BDF71E936B7D009D874B /* PlaceDB.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF99BDE71E936B7D009D874B /* PlaceDB.swift */; };
+		FF99BDF81E936B7D009D874B /* PlacesDetailTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF99BDE81E936B7D009D874B /* PlacesDetailTableViewController.swift */; };
+		FF99BDF91E936B7D009D874B /* PlacesListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF99BDE91E936B7D009D874B /* PlacesListTableViewController.swift */; };
+		FF99BDFA1E936B7D009D874B /* PlacesOnMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF99BDEA1E936B7D009D874B /* PlacesOnMapViewController.swift */; };
+		FF99BDFB1E936B7D009D874B /* PlacesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF99BDEB1E936B7D009D874B /* PlacesTableViewCell.swift */; };
+		FF99BDFC1E936B7D009D874B /* PlacesTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FF99BDEC1E936B7D009D874B /* PlacesTableViewCell.xib */; };
+		FF99BDFD1E936B7D009D874B /* PopUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF99BDED1E936B7D009D874B /* PopUpViewController.swift */; };
+		FF99BDFE1E936B7D009D874B /* ResetPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF99BDEE1E936B7D009D874B /* ResetPasswordViewController.swift */; };
+		FF99BDFF1E936B7D009D874B /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF99BDEF1E936B7D009D874B /* SignUpViewController.swift */; };
+		FF99BE001E936B7D009D874B /* squirrelTrip.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FF99BDF01E936B7D009D874B /* squirrelTrip.xcdatamodeld */; };
+		FF99BE011E936B7D009D874B /* StarButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF99BDF21E936B7D009D874B /* StarButton.swift */; };
+		FF99BE021E936B7D009D874B /* StarRankingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF99BDF31E936B7D009D874B /* StarRankingView.swift */; };
 		FFDC3D0F1E823F7A0013CB7F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFDC3D0E1E823F7A0013CB7F /* AppDelegate.swift */; };
 		FFDC3D111E823F7A0013CB7F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFDC3D101E823F7A0013CB7F /* ViewController.swift */; };
 		FFDC3D141E823F7B0013CB7F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FFDC3D121E823F7B0013CB7F /* Main.storyboard */; };
@@ -38,6 +53,21 @@
 		494FC9C5A141540D7E8C7E65 /* Pods_SquirrelTrip.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SquirrelTrip.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC0A73D17C9659A4B2B3DE7B /* Pods-SquirrelTrip.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SquirrelTrip.release.xcconfig"; path = "Pods/Target Support Files/Pods-SquirrelTrip/Pods-SquirrelTrip.release.xcconfig"; sourceTree = "<group>"; };
 		F0E43F95A0E0AF465E2D655B /* Pods-SquirrelTrip.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SquirrelTrip.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SquirrelTrip/Pods-SquirrelTrip.debug.xcconfig"; sourceTree = "<group>"; };
+		FF99BDE41E936B7D009D874B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		FF99BDE51E936B7D009D874B /* language.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = language.swift; sourceTree = "<group>"; };
+		FF99BDE61E936B7D009D874B /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		FF99BDE71E936B7D009D874B /* PlaceDB.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaceDB.swift; sourceTree = "<group>"; };
+		FF99BDE81E936B7D009D874B /* PlacesDetailTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlacesDetailTableViewController.swift; sourceTree = "<group>"; };
+		FF99BDE91E936B7D009D874B /* PlacesListTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlacesListTableViewController.swift; sourceTree = "<group>"; };
+		FF99BDEA1E936B7D009D874B /* PlacesOnMapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlacesOnMapViewController.swift; sourceTree = "<group>"; };
+		FF99BDEB1E936B7D009D874B /* PlacesTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlacesTableViewCell.swift; sourceTree = "<group>"; };
+		FF99BDEC1E936B7D009D874B /* PlacesTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PlacesTableViewCell.xib; sourceTree = "<group>"; };
+		FF99BDED1E936B7D009D874B /* PopUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopUpViewController.swift; sourceTree = "<group>"; };
+		FF99BDEE1E936B7D009D874B /* ResetPasswordViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResetPasswordViewController.swift; sourceTree = "<group>"; };
+		FF99BDEF1E936B7D009D874B /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		FF99BDF11E936B7D009D874B /* squirrelTrip.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = squirrelTrip.xcdatamodel; sourceTree = "<group>"; };
+		FF99BDF21E936B7D009D874B /* StarButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StarButton.swift; sourceTree = "<group>"; };
+		FF99BDF31E936B7D009D874B /* StarRankingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StarRankingView.swift; sourceTree = "<group>"; };
 		FFDC3D0B1E823F790013CB7F /* SquirrelTrip.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SquirrelTrip.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FFDC3D0E1E823F7A0013CB7F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FFDC3D101E823F7A0013CB7F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -96,6 +126,49 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		FF99BE031E936BAA009D874B /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				FF99BDEB1E936B7D009D874B /* PlacesTableViewCell.swift */,
+				FF99BDEC1E936B7D009D874B /* PlacesTableViewCell.xib */,
+				FF99BDF21E936B7D009D874B /* StarButton.swift */,
+				FF99BDF31E936B7D009D874B /* StarRankingView.swift */,
+			);
+			name = UI;
+			sourceTree = "<group>";
+		};
+		FF99BE041E936BB3009D874B /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				FFDC3D121E823F7B0013CB7F /* Main.storyboard */,
+			);
+			name = Storyboard;
+			sourceTree = "<group>";
+		};
+		FF99BE051E936BBE009D874B /* DataBase */ = {
+			isa = PBXGroup;
+			children = (
+				FF99BDE71E936B7D009D874B /* PlaceDB.swift */,
+			);
+			name = DataBase;
+			sourceTree = "<group>";
+		};
+		FF99BE061E936BC5009D874B /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				FF99BDE51E936B7D009D874B /* language.swift */,
+				FF99BDE61E936B7D009D874B /* LoginViewController.swift */,
+				FF99BDE81E936B7D009D874B /* PlacesDetailTableViewController.swift */,
+				FF99BDE91E936B7D009D874B /* PlacesListTableViewController.swift */,
+				FF99BDEA1E936B7D009D874B /* PlacesOnMapViewController.swift */,
+				FF99BDED1E936B7D009D874B /* PopUpViewController.swift */,
+				FF99BDEE1E936B7D009D874B /* ResetPasswordViewController.swift */,
+				FF99BDEF1E936B7D009D874B /* SignUpViewController.swift */,
+				FFDC3D101E823F7A0013CB7F /* ViewController.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
 		FFDC3D021E823F760013CB7F = {
 			isa = PBXGroup;
 			children = (
@@ -121,9 +194,13 @@
 		FFDC3D0D1E823F790013CB7F /* SquirrelTrip */ = {
 			isa = PBXGroup;
 			children = (
+				FF99BE061E936BC5009D874B /* Controllers */,
+				FF99BE051E936BBE009D874B /* DataBase */,
+				FF99BE041E936BB3009D874B /* Storyboard */,
+				FF99BE031E936BAA009D874B /* UI */,
+				FF99BDE41E936B7D009D874B /* GoogleService-Info.plist */,
+				FF99BDF01E936B7D009D874B /* squirrelTrip.xcdatamodeld */,
 				FFDC3D0E1E823F7A0013CB7F /* AppDelegate.swift */,
-				FFDC3D101E823F7A0013CB7F /* ViewController.swift */,
-				FFDC3D121E823F7B0013CB7F /* Main.storyboard */,
 				FFDC3D151E823F7B0013CB7F /* Assets.xcassets */,
 				FFDC3D171E823F7B0013CB7F /* LaunchScreen.storyboard */,
 				FFDC3D1A1E823F7B0013CB7F /* Info.plist */,
@@ -260,8 +337,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				FFDC3D191E823F7B0013CB7F /* LaunchScreen.storyboard in Resources */,
+				FF99BDF41E936B7D009D874B /* GoogleService-Info.plist in Resources */,
 				FFDC3D161E823F7B0013CB7F /* Assets.xcassets in Resources */,
 				FFDC3D141E823F7B0013CB7F /* Main.storyboard in Resources */,
+				FF99BDFC1E936B7D009D874B /* PlacesTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -334,8 +413,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FF99BDF61E936B7D009D874B /* LoginViewController.swift in Sources */,
 				FFDC3D111E823F7A0013CB7F /* ViewController.swift in Sources */,
+				FF99BE021E936B7D009D874B /* StarRankingView.swift in Sources */,
+				FF99BDF71E936B7D009D874B /* PlaceDB.swift in Sources */,
+				FF99BDFE1E936B7D009D874B /* ResetPasswordViewController.swift in Sources */,
+				FF99BDF91E936B7D009D874B /* PlacesListTableViewController.swift in Sources */,
+				FF99BDFA1E936B7D009D874B /* PlacesOnMapViewController.swift in Sources */,
+				FF99BE001E936B7D009D874B /* squirrelTrip.xcdatamodeld in Sources */,
+				FF99BDFF1E936B7D009D874B /* SignUpViewController.swift in Sources */,
+				FF99BDFD1E936B7D009D874B /* PopUpViewController.swift in Sources */,
+				FF99BDFB1E936B7D009D874B /* PlacesTableViewCell.swift in Sources */,
 				FFDC3D0F1E823F7A0013CB7F /* AppDelegate.swift in Sources */,
+				FF99BDF81E936B7D009D874B /* PlacesDetailTableViewController.swift in Sources */,
+				FF99BDF51E936B7D009D874B /* language.swift in Sources */,
+				FF99BE011E936B7D009D874B /* StarButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -582,6 +674,7 @@
 				FFDC3D351E823F7D0013CB7F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FFDC3D361E823F7D0013CB7F /* Build configuration list for PBXNativeTarget "SquirrelTripTests" */ = {
 			isa = XCConfigurationList;
@@ -590,6 +683,7 @@
 				FFDC3D381E823F7D0013CB7F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FFDC3D391E823F7D0013CB7F /* Build configuration list for PBXNativeTarget "SquirrelTripUITests" */ = {
 			isa = XCConfigurationList;
@@ -598,8 +692,22 @@
 				FFDC3D3B1E823F7D0013CB7F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		FF99BDF01E936B7D009D874B /* squirrelTrip.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				FF99BDF11E936B7D009D874B /* squirrelTrip.xcdatamodel */,
+			);
+			currentVersion = FF99BDF11E936B7D009D874B /* squirrelTrip.xcdatamodel */;
+			path = squirrelTrip.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = FFDC3D031E823F770013CB7F /* Project object */;
 }
