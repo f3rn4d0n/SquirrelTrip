@@ -17,6 +17,9 @@ class SignUpViewController: UIViewController {
     @IBOutlet weak var passLbl: UITextField!
     @IBOutlet weak var saveUsrButton: UIButton!
     
+    @IBAction func goBack(_ sender: Any) {
+        self .dismiss(animated: false, completion: nil)
+    }
     //Sign Up Action for email
     @IBAction func createAccountAction(_ sender: AnyObject) {
         saveUsrButton.isEnabled = false
