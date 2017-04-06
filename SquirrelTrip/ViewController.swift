@@ -23,6 +23,14 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         menuTableView.dataSource = self
         trailingTVConstraint.constant = -240
         getListOfMenuOptions()
+        
+        
+        let storyboard = UIStoryboard(name: "Main", bundle: nil)
+        let controller = storyboard.instantiateViewController(withIdentifier: "PlacesList")
+        self.present(controller, animated: true, completion: nil)
+        
+        SharedDesignObject.fill(Container: self.contentView, inView: controller.view, andBottom: 0, andTop: 0, andLeading: 0, andTrailing: 0)
+        
     }
 
     override func didReceiveMemoryWarning() {
