@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="T3Y-IU-3wY">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="VAR-vX-DJE">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -352,7 +352,6 @@
         <!--Table-->
         <scene sceneID="9Hu-yT-Upd">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="2bJ-BN-RQ6" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <tableViewController title="Table" id="E4t-3w-5zR" customClass="PlacesListTableViewController" customModule="SquirrelTrip" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="7Ub-b8-097">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
@@ -370,6 +369,7 @@
                         </segue>
                     </connections>
                 </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="2bJ-BN-RQ6" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1660" y="-1021"/>
         </scene>
@@ -388,7 +388,7 @@
                                         <rect key="frame" x="0.0" y="0.0" width="375" height="200"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="oVH-3C-r2C" id="vAm-oD-rOp">
-                                            <rect key="frame" x="0.0" y="0.0" width="375" height="200"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="199"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ypb-v0-Cr8">
@@ -427,7 +427,7 @@
                                         <rect key="frame" x="0.0" y="200" width="375" height="300"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="60c-p5-V9a" id="tW3-gJ-ztY">
-                                            <rect key="frame" x="0.0" y="0.0" width="375" height="300"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="299"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="OVF-ee-pYH">
@@ -462,7 +462,7 @@
                                         <rect key="frame" x="0.0" y="500" width="375" height="150"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="p7Z-XE-y9S" id="Rju-9M-vZ2">
-                                            <rect key="frame" x="0.0" y="0.0" width="375" height="150"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="149"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <mapView clipsSubviews="YES" multipleTouchEnabled="YES" userInteractionEnabled="NO" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="cIQ-g7-liq">
@@ -481,7 +481,7 @@
                                         <rect key="frame" x="0.0" y="650" width="375" height="100"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="913-ut-Tg8" id="in8-qF-2Bz">
-                                            <rect key="frame" x="0.0" y="0.0" width="375" height="100"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="99"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="rO4-8F-Jh3">
@@ -521,7 +521,7 @@
                                         <rect key="frame" x="0.0" y="778" width="375" height="200"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="xrv-Ou-gGW" id="7MH-D9-oE9">
-                                            <rect key="frame" x="0.0" y="0.0" width="375" height="200"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="199"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="lUY-nd-DRq">
@@ -569,7 +569,7 @@
                                         <rect key="frame" x="0.0" y="978" width="375" height="45"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="gSZ-2C-Rdw" id="jRe-ht-cM0">
-                                            <rect key="frame" x="0.0" y="0.0" width="375" height="45"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LVW-gK-Dkb">
@@ -634,6 +634,7 @@
                                         </state>
                                         <connections>
                                             <action selector="goBack:" destination="Oag-hO-8sU" eventType="touchUpInside" id="Wv3-eY-yjC"/>
+                                            <action selector="menuAction:" destination="VAR-vX-DJE" eventType="touchUpInside" id="Jph-V6-DFi"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -651,14 +652,13 @@
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9qw-Rz-M0i">
-                                <rect key="frame" x="143" y="70" width="240" height="597"/>
+                                <rect key="frame" x="383" y="70" width="240" height="597"/>
                                 <subviews>
                                     <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="KwY-ZC-0Ez">
                                         <rect key="frame" x="0.0" y="0.0" width="240" height="597"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                     </tableView>
                                 </subviews>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstItem="KwY-ZC-0Ez" firstAttribute="leading" secondItem="9qw-Rz-M0i" secondAttribute="leading" id="KrM-2A-hGB"/>
                                     <constraint firstAttribute="width" constant="240" id="Lze-Gn-EL5"/>
@@ -674,7 +674,7 @@
                             <constraint firstItem="0kf-f0-Nfm" firstAttribute="top" secondItem="aRM-LG-I5J" secondAttribute="bottom" id="46G-rr-jfO"/>
                             <constraint firstItem="aRM-LG-I5J" firstAttribute="top" secondItem="k7Y-dE-s76" secondAttribute="bottom" id="HTc-b9-Ibs"/>
                             <constraint firstAttribute="trailing" secondItem="aRM-LG-I5J" secondAttribute="trailing" id="Qfc-DC-UHC"/>
-                            <constraint firstAttribute="trailing" secondItem="9qw-Rz-M0i" secondAttribute="trailingMargin" id="Xe9-bl-rqH"/>
+                            <constraint firstAttribute="trailing" secondItem="9qw-Rz-M0i" secondAttribute="trailingMargin" constant="-240" id="Xe9-bl-rqH"/>
                             <constraint firstItem="iFQ-0u-UMq" firstAttribute="top" secondItem="0kf-f0-Nfm" secondAttribute="bottom" id="ZDA-DV-BI8"/>
                             <constraint firstItem="9qw-Rz-M0i" firstAttribute="top" secondItem="aRM-LG-I5J" secondAttribute="bottom" id="iLb-0l-tlT"/>
                             <constraint firstItem="iFQ-0u-UMq" firstAttribute="top" secondItem="9qw-Rz-M0i" secondAttribute="bottom" id="p3k-Be-QXo"/>
@@ -682,6 +682,11 @@
                             <constraint firstItem="aRM-LG-I5J" firstAttribute="leading" secondItem="Vg1-2g-wjz" secondAttribute="leading" id="xm1-my-vpI"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="contentView" destination="0kf-f0-Nfm" id="4Ti-Gu-lor"/>
+                        <outlet property="menuTableView" destination="KwY-ZC-0Ez" id="e6Q-p8-9CC"/>
+                        <outlet property="trailingTVConstraint" destination="Xe9-bl-rqH" id="UYO-AU-seX"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="R8L-it-m80" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -752,7 +757,6 @@
         <!--Navigation Controller-->
         <scene sceneID="6YV-cO-yKs">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="6ch-lb-hcc" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <navigationController storyboardIdentifier="PlacesList" automaticallyAdjustsScrollViewInsets="NO" id="huJ-sV-vPq" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="ten-Vq-CaM">
@@ -764,6 +768,7 @@
                         <segue destination="E4t-3w-5zR" kind="relationship" relationship="rootViewController" id="bLr-PP-7Jo"/>
                     </connections>
                 </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="6ch-lb-hcc" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="908" y="-1021"/>
         </scene>

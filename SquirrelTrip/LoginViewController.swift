@@ -23,7 +23,7 @@ class LoginViewController: UIViewController {
         FIRAuth.auth()?.signIn(withEmail: usrNameLbl.text!, password: usrPassLbl.text!) { (user, error) in
             if error == nil {
                 let storyboard = UIStoryboard(name: "Main", bundle: nil)
-                let controller = storyboard.instantiateViewController(withIdentifier: "PlacesList")
+                let controller = storyboard.instantiateViewController(withIdentifier: "MainViewController")
                 self.present(controller, animated: true, completion: nil)
             }else{
                 if let errCode = FIRAuthErrorCode(rawValue: error!._code) {

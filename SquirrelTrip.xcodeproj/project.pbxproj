@@ -216,10 +216,10 @@
 		FF99BE061E936BC5009D874B /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				FFDC3D101E823F7A0013CB7F /* ViewController.swift */,
 				A01418251E93FD0400390CAF /* Places */,
 				A01418241E93FCF900390CAF /* Config */,
 				A01418231E93FCEB00390CAF /* Login */,
-				FFDC3D101E823F7A0013CB7F /* ViewController.swift */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";

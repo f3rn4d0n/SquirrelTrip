@@ -33,7 +33,7 @@ class SignUpViewController: UIViewController {
                             password: self.passLbl.text!
                     )
                     let storyboard = UIStoryboard(name: "Main", bundle: nil)
-                    let controller = storyboard.instantiateViewController(withIdentifier: "PlacesList")
+                    let controller = storyboard.instantiateViewController(withIdentifier: "MainViewController")
                     self.present(controller, animated: true, completion: nil)
                 }
                 else{
