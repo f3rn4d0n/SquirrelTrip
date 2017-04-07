@@ -17,6 +17,9 @@
 		A014183A1E94582600390CAF /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = A01418391E94582600390CAF /* User.swift */; };
 		A014183C1E945ACF00390CAF /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A014183B1E945ACF00390CAF /* AdSupport.framework */; };
 		A014183E1E945EEA00390CAF /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A014183D1E945EEA00390CAF /* GoogleService-Info.plist */; };
+		A0A5610D1E958EB1003C2E5D /* mustang.png in Resources */ = {isa = PBXBuildFile; fileRef = A0A5610C1E958EB1003C2E5D /* mustang.png */; };
+		A0C303881E9703DE00AD0CB9 /* SharedFunctionsObjects.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0C303871E9703DE00AD0CB9 /* SharedFunctionsObjects.swift */; };
+		A0C3038A1E97058600AD0CB9 /* SharedDesignObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0C303891E97058600AD0CB9 /* SharedDesignObject.swift */; };
 		FF99BDF51E936B7D009D874B /* language.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF99BDE51E936B7D009D874B /* language.swift */; };
 		FF99BDF61E936B7D009D874B /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF99BDE61E936B7D009D874B /* LoginViewController.swift */; };
 		FF99BDF71E936B7D009D874B /* PlaceDB.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF99BDE71E936B7D009D874B /* PlaceDB.swift */; };
@@ -66,6 +69,9 @@
 		A01418391E94582600390CAF /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		A014183B1E945ACF00390CAF /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
 		A014183D1E945EEA00390CAF /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		A0A5610C1E958EB1003C2E5D /* mustang.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mustang.png; sourceTree = "<group>"; };
+		A0C303871E9703DE00AD0CB9 /* SharedFunctionsObjects.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SharedFunctionsObjects.swift; sourceTree = "<group>"; };
+		A0C303891E97058600AD0CB9 /* SharedDesignObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SharedDesignObject.swift; sourceTree = "<group>"; };
 		EC0A73D17C9659A4B2B3DE7B /* Pods-SquirrelTrip.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SquirrelTrip.release.xcconfig"; path = "Pods/Target Support Files/Pods-SquirrelTrip/Pods-SquirrelTrip.release.xcconfig"; sourceTree = "<group>"; };
 		F0E43F95A0E0AF465E2D655B /* Pods-SquirrelTrip.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SquirrelTrip.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SquirrelTrip/Pods-SquirrelTrip.debug.xcconfig"; sourceTree = "<group>"; };
 		FF99BDE51E936B7D009D874B /* language.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = language.swift; sourceTree = "<group>"; };
@@ -148,6 +154,7 @@
 				A01418291E94158D00390CAF /* clock.png */,
 				A014182B1E9415FB00390CAF /* map.png */,
 				A014181B1E93EBF000390CAF /* xochimilco.jpg */,
+				A0A5610C1E958EB1003C2E5D /* mustang.png */,
 			);
 			name = Images;
 			sourceTree = "<group>";
@@ -166,6 +173,8 @@
 			isa = PBXGroup;
 			children = (
 				FF99BDE51E936B7D009D874B /* language.swift */,
+				A0C303871E9703DE00AD0CB9 /* SharedFunctionsObjects.swift */,
+				A0C303891E97058600AD0CB9 /* SharedDesignObject.swift */,
 			);
 			name = Config;
 			sourceTree = "<group>";
@@ -213,10 +222,10 @@
 		FF99BE061E936BC5009D874B /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				FFDC3D101E823F7A0013CB7F /* ViewController.swift */,
 				A01418251E93FD0400390CAF /* Places */,
 				A01418241E93FCF900390CAF /* Config */,
 				A01418231E93FCEB00390CAF /* Login */,
-				FFDC3D101E823F7A0013CB7F /* ViewController.swift */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -390,6 +399,7 @@
 			files = (
 				A014181C1E93EBF000390CAF /* xochimilco.jpg in Resources */,
 				A01418381E944D5C00390CAF /* GoogleService-Info.plist in Resources */,
+				A0A5610D1E958EB1003C2E5D /* mustang.png in Resources */,
 				A014183E1E945EEA00390CAF /* GoogleService-Info.plist in Resources */,
 				A014182A1E94158D00390CAF /* clock.png in Resources */,
 				A014182C1E9415FB00390CAF /* map.png in Resources */,
@@ -470,6 +480,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				FF99BDF61E936B7D009D874B /* LoginViewController.swift in Sources */,
+				A0C3038A1E97058600AD0CB9 /* SharedDesignObject.swift in Sources */,
+				A0C303881E9703DE00AD0CB9 /* SharedFunctionsObjects.swift in Sources */,
 				FFDC3D111E823F7A0013CB7F /* ViewController.swift in Sources */,
 				FF99BE021E936B7D009D874B /* StarRankingView.swift in Sources */,
 				FF99BDF71E936B7D009D874B /* PlaceDB.swift in Sources */,

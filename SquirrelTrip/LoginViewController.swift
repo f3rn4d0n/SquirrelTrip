@@ -7,7 +7,6 @@
 //
 
 import UIKit
-import Firebase
 import FirebaseAuth
 
 class LoginViewController: UIViewController {
@@ -22,9 +21,35 @@ class LoginViewController: UIViewController {
     //Login Action
     @IBAction func signIn(_ sender: Any) {
         FIRAuth.auth()?.signIn(withEmail: usrNameLbl.text!, password: usrPassLbl.text!) { (user, error) in
-            // ...
+            if error == nil {
+                let storyboard = UIStoryboard(name: "Main", bundle: nil)
+                let controller = storyboard.instantiateViewController(withIdentifier: "MainViewController")
+                self.present(controller, animated: true, completion: nil)
+            }else{
+                if let errCode = FIRAuthErrorCode(rawValue: error!._code) {
+                    
+                    var alertController = UIAlertController(title: "", message: "", preferredStyle: UIAlertControllerStyle.alert)
+                    let okButton = UIAlertAction(title: "OK", style: UIAlertActionStyle.default) {
+                        (result: UIAlertAction) -> Void in
+                        print("Error transmitted")
+                    }
+                    
+                    switch errCode {
+                    case .errorCodeInvalidEmail:
+                        print("Invalid email")
+                        alertController = UIAlertController(title: "Error", message: "Email syntax is not correct", preferredStyle: UIAlertControllerStyle.alert)
+                        alertController.addAction(okButton)
+                        self.present(alertController, animated: true, completion: nil)
+                    default:
+                        // ALWAYS GET HERE.
+                        print(error)
+                        alertController = UIAlertController(title: "Error", message: "An unknown error occured.", preferredStyle: UIAlertControllerStyle.alert)
+                        alertController.addAction(okButton)
+                        self.present(alertController, animated: true, completion: nil)
+                    }
+                }
+            }
         }
-        
         
     }
     @IBAction func forgotPassword(_ sender: Any) {
@@ -32,31 +57,6 @@ class LoginViewController: UIViewController {
     @IBAction func signUp(_ sender: Any) {
     }
     
-    
-    override func viewDidLoad() {
-        // 1
-        let rootRef = FIRDatabase.database().reference()
-        
-        // 2
-        let childRef = FIRDatabase.database().reference(withPath: "grocery-items")
-        
-        // 3
-        let itemsRef = rootRef.child("grocery-items")
-        
-        // 4
-        let milkRef = itemsRef.child("milk")
-        
-        // 5
-        print(rootRef.key)   // prints: ""
-        print(childRef.key)  // prints: "grocery-items"
-        print(itemsRef.key)  // prints: "grocery-items"
-        print(milkRef.key)   // prints: "milk"
-        
-        
-        
-                
-
-    }
     
     
 

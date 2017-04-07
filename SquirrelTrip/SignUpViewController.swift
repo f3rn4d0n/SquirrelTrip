@@ -17,6 +17,9 @@ class SignUpViewController: UIViewController {
     @IBOutlet weak var passLbl: UITextField!
     @IBOutlet weak var saveUsrButton: UIButton!
     
+    @IBAction func goBack(_ sender: Any) {
+        self .dismiss(animated: false, completion: nil)
+    }
     //Sign Up Action for email
     @IBAction func createAccountAction(_ sender: AnyObject) {
         saveUsrButton.isEnabled = false
@@ -30,7 +33,7 @@ class SignUpViewController: UIViewController {
                             password: self.passLbl.text!
                     )
                     let storyboard = UIStoryboard(name: "Main", bundle: nil)
-                    let controller = storyboard.instantiateViewController(withIdentifier: "PlacesList")
+                    let controller = storyboard.instantiateViewController(withIdentifier: "MainViewController")
                     self.present(controller, animated: true, completion: nil)
                 }
                 else{
