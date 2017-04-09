@@ -42,7 +42,7 @@ class LoginViewController: UIViewController {
                         self.present(alertController, animated: true, completion: nil)
                     default:
                         // ALWAYS GET HERE.
-                        print(error)
+                        print(error!)
                         alertController = UIAlertController(title: "Error", message: "An unknown error occured.", preferredStyle: UIAlertControllerStyle.alert)
                         alertController.addAction(okButton)
                         self.present(alertController, animated: true, completion: nil)

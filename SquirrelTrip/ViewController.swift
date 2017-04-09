@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import FirebaseAuth
 
 class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSource{
 
@@ -88,6 +89,33 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     }
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        
+        let message = menuOptions[indexPath.row] as? String
+        if message == "List"{
+            
+        }
+        else if message == "Camera Mode"{
+            
+            self.contentView.subviews.forEach({ $0.removeFromSuperview() }) // this gets things done
+        }
+        else if message == "Map View"{
+            self.contentView.subviews.forEach({ $0.removeFromSuperview() }) // this gets things done
+            let storyboard = UIStoryboard(name: "Main", bundle: nil)
+            let controller = storyboard.instantiateViewController(withIdentifier: "MapMode")
+            self.present(controller, animated: true, completion: nil)
+            
+            SharedDesignObject.fill(Container: self.contentView, inView: controller.view, andBottom: 0, andTop: 0, andLeading: 0, andTrailing: 0)
+        }
+        else if message == "Settings"{
+            self.contentView.subviews.forEach({ $0.removeFromSuperview() }) // this gets things done
+            
+        }
+        else if message == "Log Out"{
+            try! FIRAuth.auth()!.signOut()
+            let storyboard = UIStoryboard(name: "Main", bundle: nil)
+            let controller = storyboard.instantiateViewController(withIdentifier: "LoginViewController")
+            self.present(controller, animated: true, completion: nil)
+        }
         
     }
 
