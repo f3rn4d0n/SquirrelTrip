@@ -39,6 +39,21 @@
 		FFDC3D191E823F7B0013CB7F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FFDC3D171E823F7B0013CB7F /* LaunchScreen.storyboard */; };
 		FFDC3D241E823F7C0013CB7F /* SquirrelTripTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFDC3D231E823F7C0013CB7F /* SquirrelTripTests.swift */; };
 		FFDC3D2F1E823F7D0013CB7F /* SquirrelTripUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFDC3D2E1E823F7D0013CB7F /* SquirrelTripUITests.swift */; };
+		FFFD085C1E9B2BD50038AD66 /* ARAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFFD08501E9B2BD50038AD66 /* ARAnnotation.swift */; };
+		FFFD085D1E9B2BD50038AD66 /* ARAnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFFD08511E9B2BD50038AD66 /* ARAnnotationView.swift */; };
+		FFFD085E1E9B2BD50038AD66 /* ARConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFFD08521E9B2BD50038AD66 /* ARConfiguration.swift */; };
+		FFFD085F1E9B2BD50038AD66 /* ARTrackingManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFFD08531E9B2BD50038AD66 /* ARTrackingManager.swift */; };
+		FFFD08601E9B2BD50038AD66 /* ARViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFFD08541E9B2BD50038AD66 /* ARViewController.swift */; };
+		FFFD08611E9B2BD50038AD66 /* DebugMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFFD08561E9B2BD50038AD66 /* DebugMapViewController.swift */; };
+		FFFD08621E9B2BD50038AD66 /* DebugMapViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FFFD08581E9B2BD50038AD66 /* DebugMapViewController.xib */; };
+		FFFD08631E9B2BD50038AD66 /* hdar_close.png in Resources */ = {isa = PBXBuildFile; fileRef = FFFD08591E9B2BD50038AD66 /* hdar_close.png */; };
+		FFFD08641E9B2BD50038AD66 /* hdar_close@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FFFD085A1E9B2BD50038AD66 /* hdar_close@2x.png */; };
+		FFFD08651E9B2BD50038AD66 /* hdar_close@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = FFFD085B1E9B2BD50038AD66 /* hdar_close@3x.png */; };
+		FFFD08681E9B2CCF0038AD66 /* Place.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFFD08661E9B2CCF0038AD66 /* Place.swift */; };
+		FFFD08691E9B2CCF0038AD66 /* PlacesLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFFD08671E9B2CCF0038AD66 /* PlacesLoader.swift */; };
+		FFFD086B1E9B2D8C0038AD66 /* PlacesCameraModeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFFD086A1E9B2D8C0038AD66 /* PlacesCameraModeViewController.swift */; };
+		FFFD086E1E9B3F0A0038AD66 /* PlaceAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFFD086D1E9B3F0A0038AD66 /* PlaceAnnotation.swift */; };
+		FFFD08701E9B48CF0038AD66 /* AnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFFD086F1E9B48CF0038AD66 /* AnnotationView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -99,6 +114,21 @@
 		FFDC3D2A1E823F7D0013CB7F /* SquirrelTripUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SquirrelTripUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FFDC3D2E1E823F7D0013CB7F /* SquirrelTripUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SquirrelTripUITests.swift; sourceTree = "<group>"; };
 		FFDC3D301E823F7D0013CB7F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FFFD08501E9B2BD50038AD66 /* ARAnnotation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ARAnnotation.swift; sourceTree = "<group>"; };
+		FFFD08511E9B2BD50038AD66 /* ARAnnotationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ARAnnotationView.swift; sourceTree = "<group>"; };
+		FFFD08521E9B2BD50038AD66 /* ARConfiguration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ARConfiguration.swift; sourceTree = "<group>"; };
+		FFFD08531E9B2BD50038AD66 /* ARTrackingManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ARTrackingManager.swift; sourceTree = "<group>"; };
+		FFFD08541E9B2BD50038AD66 /* ARViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ARViewController.swift; sourceTree = "<group>"; };
+		FFFD08561E9B2BD50038AD66 /* DebugMapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DebugMapViewController.swift; sourceTree = "<group>"; };
+		FFFD08581E9B2BD50038AD66 /* DebugMapViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DebugMapViewController.xib; sourceTree = "<group>"; };
+		FFFD08591E9B2BD50038AD66 /* hdar_close.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hdar_close.png; sourceTree = "<group>"; };
+		FFFD085A1E9B2BD50038AD66 /* hdar_close@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "hdar_close@2x.png"; sourceTree = "<group>"; };
+		FFFD085B1E9B2BD50038AD66 /* hdar_close@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "hdar_close@3x.png"; sourceTree = "<group>"; };
+		FFFD08661E9B2CCF0038AD66 /* Place.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Place.swift; sourceTree = "<group>"; };
+		FFFD08671E9B2CCF0038AD66 /* PlacesLoader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlacesLoader.swift; sourceTree = "<group>"; };
+		FFFD086A1E9B2D8C0038AD66 /* PlacesCameraModeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlacesCameraModeViewController.swift; sourceTree = "<group>"; };
+		FFFD086D1E9B3F0A0038AD66 /* PlaceAnnotation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaceAnnotation.swift; sourceTree = "<group>"; };
+		FFFD086F1E9B48CF0038AD66 /* AnnotationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnnotationView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -185,6 +215,7 @@
 				FF99BDE81E936B7D009D874B /* PlacesDetailTableViewController.swift */,
 				FF99BDE91E936B7D009D874B /* PlacesListTableViewController.swift */,
 				FF99BDEA1E936B7D009D874B /* PlacesOnMapViewController.swift */,
+				FFFD086A1E9B2D8C0038AD66 /* PlacesCameraModeViewController.swift */,
 			);
 			name = Places;
 			sourceTree = "<group>";
@@ -219,15 +250,19 @@
 			name = DataBase;
 			sourceTree = "<group>";
 		};
-		FF99BE061E936BC5009D874B /* Controllers */ = {
+		FF99BE061E936BC5009D874B /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				FFFD08661E9B2CCF0038AD66 /* Place.swift */,
+				FFFD08671E9B2CCF0038AD66 /* PlacesLoader.swift */,
+				FFFD086D1E9B3F0A0038AD66 /* PlaceAnnotation.swift */,
+				FFFD086F1E9B48CF0038AD66 /* AnnotationView.swift */,
 				FFDC3D101E823F7A0013CB7F /* ViewController.swift */,
 				A01418251E93FD0400390CAF /* Places */,
 				A01418241E93FCF900390CAF /* Config */,
 				A01418231E93FCEB00390CAF /* Login */,
 			);
-			name = Controllers;
+			name = ViewControllers;
 			sourceTree = "<group>";
 		};
 		FFDC3D021E823F760013CB7F = {
@@ -255,8 +290,9 @@
 		FFDC3D0D1E823F790013CB7F /* SquirrelTrip */ = {
 			isa = PBXGroup;
 			children = (
+				FFFD086C1E9B30230038AD66 /* Complements */,
 				A014181A1E93EBDB00390CAF /* Images */,
-				FF99BE061E936BC5009D874B /* Controllers */,
+				FF99BE061E936BC5009D874B /* ViewControllers */,
 				FF99BE051E936BBE009D874B /* DataBase */,
 				FF99BE041E936BB3009D874B /* Storyboard */,
 				FF99BE031E936BAA009D874B /* UI */,
@@ -285,6 +321,55 @@
 				FFDC3D301E823F7D0013CB7F /* Info.plist */,
 			);
 			path = SquirrelTripUITests;
+			sourceTree = "<group>";
+		};
+		FFFD084E1E9B2BD50038AD66 /* HDAugmentedReality */ = {
+			isa = PBXGroup;
+			children = (
+				FFFD084F1E9B2BD50038AD66 /* Classes */,
+				FFFD08571E9B2BD50038AD66 /* Resources */,
+			);
+			path = HDAugmentedReality;
+			sourceTree = "<group>";
+		};
+		FFFD084F1E9B2BD50038AD66 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				FFFD08501E9B2BD50038AD66 /* ARAnnotation.swift */,
+				FFFD08511E9B2BD50038AD66 /* ARAnnotationView.swift */,
+				FFFD08521E9B2BD50038AD66 /* ARConfiguration.swift */,
+				FFFD08531E9B2BD50038AD66 /* ARTrackingManager.swift */,
+				FFFD08541E9B2BD50038AD66 /* ARViewController.swift */,
+				FFFD08551E9B2BD50038AD66 /* Debug */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		FFFD08551E9B2BD50038AD66 /* Debug */ = {
+			isa = PBXGroup;
+			children = (
+				FFFD08561E9B2BD50038AD66 /* DebugMapViewController.swift */,
+			);
+			path = Debug;
+			sourceTree = "<group>";
+		};
+		FFFD08571E9B2BD50038AD66 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				FFFD08581E9B2BD50038AD66 /* DebugMapViewController.xib */,
+				FFFD08591E9B2BD50038AD66 /* hdar_close.png */,
+				FFFD085A1E9B2BD50038AD66 /* hdar_close@2x.png */,
+				FFFD085B1E9B2BD50038AD66 /* hdar_close@3x.png */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		FFFD086C1E9B30230038AD66 /* Complements */ = {
+			isa = PBXGroup;
+			children = (
+				FFFD084E1E9B2BD50038AD66 /* HDAugmentedReality */,
+			);
+			name = Complements;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -398,14 +483,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				A014181C1E93EBF000390CAF /* xochimilco.jpg in Resources */,
+				FFFD08631E9B2BD50038AD66 /* hdar_close.png in Resources */,
 				A01418381E944D5C00390CAF /* GoogleService-Info.plist in Resources */,
+				FFFD08621E9B2BD50038AD66 /* DebugMapViewController.xib in Resources */,
 				A0A5610D1E958EB1003C2E5D /* mustang.png in Resources */,
 				A014183E1E945EEA00390CAF /* GoogleService-Info.plist in Resources */,
 				A014182A1E94158D00390CAF /* clock.png in Resources */,
 				A014182C1E9415FB00390CAF /* map.png in Resources */,
 				FFDC3D191E823F7B0013CB7F /* LaunchScreen.storyboard in Resources */,
+				FFFD08651E9B2BD50038AD66 /* hdar_close@3x.png in Resources */,
 				FFDC3D161E823F7B0013CB7F /* Assets.xcassets in Resources */,
 				FFDC3D141E823F7B0013CB7F /* Main.storyboard in Resources */,
+				FFFD08641E9B2BD50038AD66 /* hdar_close@2x.png in Resources */,
 				FF99BDFC1E936B7D009D874B /* PlacesTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -479,23 +568,34 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FFFD08611E9B2BD50038AD66 /* DebugMapViewController.swift in Sources */,
 				FF99BDF61E936B7D009D874B /* LoginViewController.swift in Sources */,
+				FFFD085C1E9B2BD50038AD66 /* ARAnnotation.swift in Sources */,
+				FFFD08681E9B2CCF0038AD66 /* Place.swift in Sources */,
 				A0C3038A1E97058600AD0CB9 /* SharedDesignObject.swift in Sources */,
+				FFFD085E1E9B2BD50038AD66 /* ARConfiguration.swift in Sources */,
 				A0C303881E9703DE00AD0CB9 /* SharedFunctionsObjects.swift in Sources */,
 				FFDC3D111E823F7A0013CB7F /* ViewController.swift in Sources */,
 				FF99BE021E936B7D009D874B /* StarRankingView.swift in Sources */,
+				FFFD08691E9B2CCF0038AD66 /* PlacesLoader.swift in Sources */,
+				FFFD086E1E9B3F0A0038AD66 /* PlaceAnnotation.swift in Sources */,
 				FF99BDF71E936B7D009D874B /* PlaceDB.swift in Sources */,
 				FF99BDFE1E936B7D009D874B /* ResetPasswordViewController.swift in Sources */,
 				FF99BDF91E936B7D009D874B /* PlacesListTableViewController.swift in Sources */,
 				FF99BDFA1E936B7D009D874B /* PlacesOnMapViewController.swift in Sources */,
 				FF99BDFF1E936B7D009D874B /* SignUpViewController.swift in Sources */,
+				FFFD085D1E9B2BD50038AD66 /* ARAnnotationView.swift in Sources */,
+				FFFD08701E9B48CF0038AD66 /* AnnotationView.swift in Sources */,
 				A014183A1E94582600390CAF /* User.swift in Sources */,
 				FF99BDFB1E936B7D009D874B /* PlacesTableViewCell.swift in Sources */,
 				FFDC3D0F1E823F7A0013CB7F /* AppDelegate.swift in Sources */,
 				FF99BDF81E936B7D009D874B /* PlacesDetailTableViewController.swift in Sources */,
 				FF99BDF51E936B7D009D874B /* language.swift in Sources */,
+				FFFD085F1E9B2BD50038AD66 /* ARTrackingManager.swift in Sources */,
 				FF99BE011E936B7D009D874B /* StarButton.swift in Sources */,
 				A01418281E940FB600390CAF /* SquirrelTrip.xcdatamodeld in Sources */,
+				FFFD086B1E9B2D8C0038AD66 /* PlacesCameraModeViewController.swift in Sources */,
+				FFFD08601E9B2BD50038AD66 /* ARViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

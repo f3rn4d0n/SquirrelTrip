@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12118" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="huJ-sV-vPq">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12118" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="eoz-Rp-Bul">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -331,15 +331,29 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" fixedFrame="YES" mapType="standard" showsUserLocation="YES" translatesAutoresizingMaskIntoConstraints="NO" id="xe0-qE-Xtf">
-                                <rect key="frame" x="0.0" y="64" width="375" height="603"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" mapType="standard" showsUserLocation="YES" translatesAutoresizingMaskIntoConstraints="NO" id="xe0-qE-Xtf">
+                                <rect key="frame" x="0.0" y="60" width="375" height="607"/>
                             </mapView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WF3-0N-cgt">
+                                <rect key="frame" x="164" y="20" width="46" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="changeToCameraMode:" destination="eoz-Rp-Bul" eventType="touchUpInside" id="Cdn-jm-xNS"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="xe0-qE-Xtf" firstAttribute="top" secondItem="HsB-TL-h5b" secondAttribute="bottom" constant="40" id="5nR-sJ-yOh"/>
+                            <constraint firstItem="xe0-qE-Xtf" firstAttribute="leading" secondItem="3Gf-jx-Sx4" secondAttribute="leading" id="Mky-sM-hIu"/>
+                            <constraint firstItem="DwQ-7h-Vcc" firstAttribute="top" secondItem="xe0-qE-Xtf" secondAttribute="bottom" id="ssr-f3-Kjo"/>
+                            <constraint firstAttribute="trailing" secondItem="xe0-qE-Xtf" secondAttribute="trailing" id="tHS-VK-9R3"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="ioC-CS-52W"/>
                     <connections>
+                        <outlet property="mapView" destination="xe0-qE-Xtf" id="0g8-EV-SwA"/>
                         <segue destination="Q8M-5P-dEm" kind="show" id="hhs-4a-F6a">
                             <nil key="action"/>
                         </segue>
@@ -703,13 +717,6 @@
                     <view key="view" contentMode="scaleToFill" id="cHc-xQ-liD">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="uB3-uu-Ijv">
-                                <rect key="frame" x="0.0" y="72" width="375" height="595"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                            </tableView>
-                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" id="nZ5-dl-zXx"/>
@@ -723,6 +730,6 @@
         <image name="mustang.png" width="400" height="300"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="Efr-hb-Wjm"/>
+        <segue reference="hhs-4a-F6a"/>
     </inferredMetricsTieBreakers>
 </document>
