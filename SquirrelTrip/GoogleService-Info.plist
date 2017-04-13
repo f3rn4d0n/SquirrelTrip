@@ -7,21 +7,21 @@
 	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
 	<string>ca-app-pub-3940256099942544/4411468910</string>
 	<key>CLIENT_ID</key>
-	<string>984579505927-lh7j1dllikhltmu5u2uuudpk1klktgdf.apps.googleusercontent.com</string>
+	<string>569465135138-j51t86lnlevqhu3te08fogk7csph4g82.apps.googleusercontent.com</string>
 	<key>REVERSED_CLIENT_ID</key>
-	<string>com.googleusercontent.apps.984579505927-lh7j1dllikhltmu5u2uuudpk1klktgdf</string>
+	<string>com.googleusercontent.apps.569465135138-j51t86lnlevqhu3te08fogk7csph4g82</string>
 	<key>API_KEY</key>
-	<string>AIzaSyDM0Q0ucBiTebM0_qU_JYNxoBSLhdDjGGU</string>
+	<string>AIzaSyB3rpls7oHSJna5dtNTt7M_Dyx6BksR5Jk</string>
 	<key>GCM_SENDER_ID</key>
-	<string>984579505927</string>
+	<string>569465135138</string>
 	<key>PLIST_VERSION</key>
 	<string>1</string>
 	<key>BUNDLE_ID</key>
 	<string>GastandoTenis.SquirrelTrip</string>
 	<key>PROJECT_ID</key>
-	<string>squirreltrip-3a24f</string>
+	<string>squirreltrip-164204</string>
 	<key>STORAGE_BUCKET</key>
-	<string>squirreltrip-3a24f.appspot.com</string>
+	<string>squirreltrip-164204.appspot.com</string>
 	<key>IS_ADS_ENABLED</key>
 	<true/>
 	<key>IS_ANALYTICS_ENABLED</key>
@@ -33,8 +33,8 @@
 	<key>IS_SIGNIN_ENABLED</key>
 	<true/>
 	<key>GOOGLE_APP_ID</key>
-	<string>1:984579505927:ios:f42aac5aa53907c2</string>
+	<string>1:569465135138:ios:f42aac5aa53907c2</string>
 	<key>DATABASE_URL</key>
-	<string>https://squirreltrip-3a24f.firebaseio.com</string>
+	<string>https://squirreltrip-164204.firebaseio.com</string>
 </dict>
 </plist>
