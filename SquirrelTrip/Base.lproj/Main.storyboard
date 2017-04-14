@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12118" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="eoz-Rp-Bul">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="eoz-Rp-Bul">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12086"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -13,7 +13,7 @@
         <!--Login View Controller-->
         <scene sceneID="xfc-zd-gqr">
             <objects>
-                <viewController id="T3Y-IU-3wY" customClass="LoginViewController" customModule="SquirrelTrip" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="LoginViewController" id="T3Y-IU-3wY" customClass="LoginViewController" customModule="SquirrelTrip" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="i9w-dh-8Mr"/>
                         <viewControllerLayoutGuide type="bottom" id="zjq-XQ-rzb"/>
@@ -140,7 +140,7 @@
         <!--Sign Up View Controller-->
         <scene sceneID="dlk-Yc-xau">
             <objects>
-                <viewController id="0ZZ-BZ-few" customClass="SignUpViewController" customModule="SquirrelTrip" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="SignUpViewController" id="0ZZ-BZ-few" customClass="SignUpViewController" customModule="SquirrelTrip" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="nWV-93-CFK"/>
                         <viewControllerLayoutGuide type="bottom" id="5N4-Ca-soi"/>
@@ -241,7 +241,7 @@
         <!--Reset Password View Controller-->
         <scene sceneID="amG-1C-glS">
             <objects>
-                <viewController id="Oag-hO-8sU" customClass="ResetPasswordViewController" customModule="SquirrelTrip" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="ResetPasswordViewController" id="Oag-hO-8sU" customClass="ResetPasswordViewController" customModule="SquirrelTrip" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="7MN-ZC-RVP"/>
                         <viewControllerLayoutGuide type="bottom" id="nx1-HO-imM"/>
@@ -390,7 +390,7 @@
         <!--Detail-->
         <scene sceneID="9GJ-vv-Hhd">
             <objects>
-                <tableViewController title="Detail" id="Q8M-5P-dEm" customClass="PlacesDetailTableViewController" customModule="SquirrelTrip" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController storyboardIdentifier="PlacesDetailTableViewController" title="Detail" id="Q8M-5P-dEm" customClass="PlacesDetailTableViewController" customModule="SquirrelTrip" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="ioa-uE-lc1">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -402,7 +402,7 @@
                                         <rect key="frame" x="0.0" y="0.0" width="375" height="200"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="oVH-3C-r2C" id="vAm-oD-rOp">
-                                            <rect key="frame" x="0.0" y="0.0" width="375" height="200"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="199.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ypb-v0-Cr8">
@@ -441,7 +441,7 @@
                                         <rect key="frame" x="0.0" y="200" width="375" height="300"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="60c-p5-V9a" id="tW3-gJ-ztY">
-                                            <rect key="frame" x="0.0" y="0.0" width="375" height="300"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="299.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="OVF-ee-pYH">
@@ -476,7 +476,7 @@
                                         <rect key="frame" x="0.0" y="500" width="375" height="150"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="p7Z-XE-y9S" id="Rju-9M-vZ2">
-                                            <rect key="frame" x="0.0" y="0.0" width="375" height="150"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="149.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <mapView clipsSubviews="YES" multipleTouchEnabled="YES" userInteractionEnabled="NO" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="cIQ-g7-liq">
@@ -495,7 +495,7 @@
                                         <rect key="frame" x="0.0" y="650" width="375" height="100"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="913-ut-Tg8" id="in8-qF-2Bz">
-                                            <rect key="frame" x="0.0" y="0.0" width="375" height="100"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="99.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="rO4-8F-Jh3">
@@ -535,7 +535,7 @@
                                         <rect key="frame" x="0.0" y="778" width="375" height="200"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="xrv-Ou-gGW" id="7MH-D9-oE9">
-                                            <rect key="frame" x="0.0" y="0.0" width="375" height="200"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="199.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="lUY-nd-DRq">
@@ -583,7 +583,7 @@
                                         <rect key="frame" x="0.0" y="978" width="375" height="45"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="gSZ-2C-Rdw" id="jRe-ht-cM0">
-                                            <rect key="frame" x="0.0" y="0.0" width="375" height="45"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="44.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LVW-gK-Dkb">

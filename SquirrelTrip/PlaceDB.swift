@@ -57,9 +57,13 @@ class PlaceDB{
     
     func addTempPlaces(){
         let dic1:NSDictionary = ["name":"Prueba","lat":1.2321323,"lon":-98.3432423,"desc":"Realizando un test","ranking":2.5]
-        savePlace(dic1)
+        if savePlace(dic1){
+            print("Place saved")
+        }
         let dic2:NSDictionary = ["name":"Prueba1","lat":1.2321323,"lon":-98.3432423,"desc":"Realizando un test","ranking":4.0]
-        savePlace(dic2)
+        if savePlace(dic2){
+            print("Place saved")
+        }
     }
     
 }
