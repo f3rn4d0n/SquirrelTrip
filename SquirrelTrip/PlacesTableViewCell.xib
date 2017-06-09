@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12120" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -16,7 +16,7 @@
             <rect key="frame" x="0.0" y="0.0" width="320" height="151"/>
             <autoresizingMask key="autoresizingMask"/>
             <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
-                <rect key="frame" x="0.0" y="0.0" width="320" height="150"/>
+                <rect key="frame" x="0.0" y="0.0" width="320" height="151"/>
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" semanticContentAttribute="playback" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="xochimilco.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="But-Yv-xFd">
@@ -36,7 +36,7 @@
                                 <integer key="value" value="2"/>
                             </userDefinedRuntimeAttribute>
                             <userDefinedRuntimeAttribute type="color" keyPath="shadowColor">
-                                <color key="value" red="1" green="0.98320540059999995" blue="0.67978483089999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="value" red="1" green="0.98320540059999995" blue="0.63388639339999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </userDefinedRuntimeAttribute>
                             <userDefinedRuntimeAttribute type="color" keyPath="rankingColor">
                                 <color key="value" red="1" green="0.1647229811" blue="0.21639670629999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -67,7 +67,7 @@
                             </userDefinedRuntimeAttribute>
                         </userDefinedRuntimeAttributes>
                     </view>
-                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="clock.png" translatesAutoresizingMaskIntoConstraints="NO" id="qfd-sO-6Ge">
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icons8-Time.png" translatesAutoresizingMaskIntoConstraints="NO" id="qfd-sO-6Ge">
                         <rect key="frame" x="292" y="0.0" width="25" height="25"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
@@ -85,7 +85,7 @@
                         <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <nil key="highlightedColor"/>
                     </label>
-                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="map.png" translatesAutoresizingMaskIntoConstraints="NO" id="0mj-11-MbJ">
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icons8-Point Objects.png" translatesAutoresizingMaskIntoConstraints="NO" id="0mj-11-MbJ">
                         <rect key="frame" x="292" y="47" width="25" height="25"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
@@ -112,11 +112,37 @@
                         <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <nil key="highlightedColor"/>
                     </label>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QlM-es-6AJ">
+                        <rect key="frame" x="0.0" y="0.0" width="40" height="40"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="40" id="64j-lM-AGX"/>
+                            <constraint firstAttribute="height" constant="40" id="xxJ-7q-pf7"/>
+                        </constraints>
+                        <state key="normal" image="icons8-DJ.png"/>
+                        <connections>
+                            <action selector="playMusic:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="nkx-FQ-b37"/>
+                        </connections>
+                    </button>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QSH-mJ-uE2">
+                        <rect key="frame" x="0.0" y="65" width="40" height="40"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="40" id="KIm-bZ-pbb"/>
+                            <constraint firstAttribute="height" constant="40" id="k1u-YQ-wzH"/>
+                        </constraints>
+                        <state key="normal" backgroundImage="icons8-Download.png"/>
+                        <connections>
+                            <action selector="downloadPlace:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="TIb-Vd-jeh"/>
+                        </connections>
+                    </button>
                 </subviews>
                 <constraints>
                     <constraint firstItem="HHc-R4-aVF" firstAttribute="leading" secondItem="V6o-9d-dZz" secondAttribute="trailing" constant="8" id="2gy-c2-4ir"/>
                     <constraint firstAttribute="trailing" secondItem="HHc-R4-aVF" secondAttribute="trailing" id="43Y-Wj-NPl"/>
                     <constraint firstAttribute="trailing" secondItem="XsQ-Y6-o02" secondAttribute="trailing" id="4OR-NJ-WpS"/>
+                    <constraint firstItem="QlM-es-6AJ" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="9aC-TP-fJD"/>
+                    <constraint firstItem="QSH-mJ-uE2" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="AbE-0E-RkP"/>
                     <constraint firstAttribute="bottom" secondItem="HHc-R4-aVF" secondAttribute="bottom" constant="8" id="DyK-GQ-klx"/>
                     <constraint firstAttribute="bottom" secondItem="But-Yv-xFd" secondAttribute="bottom" id="F6f-9M-Vxr"/>
                     <constraint firstItem="V6o-9d-dZz" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" id="HOA-X6-FyA"/>
@@ -124,16 +150,20 @@
                     <constraint firstItem="But-Yv-xFd" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="KwJ-FO-QBr"/>
                     <constraint firstAttribute="trailing" secondItem="hv0-gK-ahN" secondAttribute="trailing" id="LEQ-3U-EQ2"/>
                     <constraint firstAttribute="trailing" secondItem="qfd-sO-6Ge" secondAttribute="trailing" constant="3" id="T2c-ko-aOY"/>
+                    <constraint firstItem="V6o-9d-dZz" firstAttribute="top" secondItem="QSH-mJ-uE2" secondAttribute="bottom" constant="8" id="W2t-5P-LTN"/>
                     <constraint firstItem="hv0-gK-ahN" firstAttribute="top" secondItem="qfd-sO-6Ge" secondAttribute="bottom" id="cFn-J3-PVT"/>
                     <constraint firstItem="XsQ-Y6-o02" firstAttribute="top" secondItem="0mj-11-MbJ" secondAttribute="bottom" id="dp0-zO-b1B"/>
                     <constraint firstItem="V6o-9d-dZz" firstAttribute="bottom" secondItem="H2p-sc-9uM" secondAttribute="bottomMargin" id="f7u-64-tKd"/>
                     <constraint firstItem="qfd-sO-6Ge" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="fFB-GH-nVq"/>
                     <constraint firstAttribute="trailing" secondItem="But-Yv-xFd" secondAttribute="trailing" id="fuk-pw-5ok"/>
                     <constraint firstItem="But-Yv-xFd" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="ozv-TC-6YI"/>
+                    <constraint firstItem="QlM-es-6AJ" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="sQX-ET-e7L"/>
                     <constraint firstItem="0mj-11-MbJ" firstAttribute="top" secondItem="hv0-gK-ahN" secondAttribute="bottom" constant="8" id="slL-4K-B76"/>
                 </constraints>
             </tableViewCellContentView>
             <connections>
+                <outlet property="btnDownload" destination="QSH-mJ-uE2" id="mUb-sg-7Ub"/>
+                <outlet property="btnPlay" destination="QlM-es-6AJ" id="JOc-Bq-7Qw"/>
                 <outlet property="imgPlace" destination="But-Yv-xFd" id="Adh-JO-JSu"/>
                 <outlet property="lblKm" destination="XsQ-Y6-o02" id="hnR-SZ-4SC"/>
                 <outlet property="lblName" destination="V6o-9d-dZz" id="pWM-oI-AXH"/>
@@ -144,8 +174,10 @@
         </tableViewCell>
     </objects>
     <resources>
-        <image name="clock.png" width="32" height="32"/>
-        <image name="map.png" width="32" height="32"/>
+        <image name="icons8-DJ.png" width="64" height="64"/>
+        <image name="icons8-Download.png" width="64" height="64"/>
+        <image name="icons8-Point Objects.png" width="64" height="64"/>
+        <image name="icons8-Time.png" width="64" height="64"/>
         <image name="xochimilco.jpg" width="1200" height="800"/>
     </resources>
 </document>

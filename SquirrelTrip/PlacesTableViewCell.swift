@@ -16,6 +16,8 @@ class PlacesTableViewCell: UITableViewCell {
     @IBOutlet var lblTime: UILabel!
     @IBOutlet var lblKm: UILabel!
     @IBOutlet var imgPlace: UIImageView!
+    @IBOutlet weak var btnPlay: UIButton!
+    @IBOutlet weak var btnDownload: UIButton!
     
     
     override func awakeFromNib() {
@@ -33,5 +35,10 @@ class PlacesTableViewCell: UITableViewCell {
                 
         
         
+    }
+    @IBAction func playMusic(_ sender: Any) {
+    }
+    
+    @IBAction func downloadPlace(_ sender: Any) {
     }
 }

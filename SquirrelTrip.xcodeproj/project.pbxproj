@@ -20,6 +20,8 @@
 		A0A5610D1E958EB1003C2E5D /* mustang.png in Resources */ = {isa = PBXBuildFile; fileRef = A0A5610C1E958EB1003C2E5D /* mustang.png */; };
 		A0C303881E9703DE00AD0CB9 /* SharedFunctionsObjects.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0C303871E9703DE00AD0CB9 /* SharedFunctionsObjects.swift */; };
 		A0C3038A1E97058600AD0CB9 /* SharedDesignObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0C303891E97058600AD0CB9 /* SharedDesignObject.swift */; };
+		FF2E10041EEA3B1E00DC40BF /* PlacesListFirebase.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF2E10031EEA3B1E00DC40BF /* PlacesListFirebase.swift */; };
+		FF2E10071EEA3E5400DC40BF /* PlacesDownloadedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF2E10061EEA3E5400DC40BF /* PlacesDownloadedViewController.swift */; };
 		FF99BDF51E936B7D009D874B /* language.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF99BDE51E936B7D009D874B /* language.swift */; };
 		FF99BDF61E936B7D009D874B /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF99BDE61E936B7D009D874B /* LoginViewController.swift */; };
 		FF99BDF71E936B7D009D874B /* PlaceDB.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF99BDE71E936B7D009D874B /* PlaceDB.swift */; };
@@ -89,6 +91,8 @@
 		A0C303891E97058600AD0CB9 /* SharedDesignObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SharedDesignObject.swift; sourceTree = "<group>"; };
 		EC0A73D17C9659A4B2B3DE7B /* Pods-SquirrelTrip.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SquirrelTrip.release.xcconfig"; path = "Pods/Target Support Files/Pods-SquirrelTrip/Pods-SquirrelTrip.release.xcconfig"; sourceTree = "<group>"; };
 		F0E43F95A0E0AF465E2D655B /* Pods-SquirrelTrip.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SquirrelTrip.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SquirrelTrip/Pods-SquirrelTrip.debug.xcconfig"; sourceTree = "<group>"; };
+		FF2E10031EEA3B1E00DC40BF /* PlacesListFirebase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlacesListFirebase.swift; sourceTree = "<group>"; };
+		FF2E10061EEA3E5400DC40BF /* PlacesDownloadedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlacesDownloadedViewController.swift; sourceTree = "<group>"; };
 		FF99BDE51E936B7D009D874B /* language.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = language.swift; sourceTree = "<group>"; };
 		FF99BDE61E936B7D009D874B /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		FF99BDE71E936B7D009D874B /* PlaceDB.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaceDB.swift; sourceTree = "<group>"; };
@@ -212,12 +216,40 @@
 		A01418251E93FD0400390CAF /* Places */ = {
 			isa = PBXGroup;
 			children = (
+				FF2E10051EEA3E2000DC40BF /* Camera */,
 				FF99BDE81E936B7D009D874B /* PlacesDetailTableViewController.swift */,
 				FF99BDE91E936B7D009D874B /* PlacesListTableViewController.swift */,
 				FF99BDEA1E936B7D009D874B /* PlacesOnMapViewController.swift */,
 				FFFD086A1E9B2D8C0038AD66 /* PlacesCameraModeViewController.swift */,
+				FF2E10061EEA3E5400DC40BF /* PlacesDownloadedViewController.swift */,
 			);
 			name = Places;
+			sourceTree = "<group>";
+		};
+		FF2E10011EEA3A4200DC40BF /* FirebaseServices */ = {
+			isa = PBXGroup;
+			children = (
+				FF2E10031EEA3B1E00DC40BF /* PlacesListFirebase.swift */,
+			);
+			name = FirebaseServices;
+			sourceTree = "<group>";
+		};
+		FF2E10021EEA3A5100DC40BF /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				FFFD08661E9B2CCF0038AD66 /* Place.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		FF2E10051EEA3E2000DC40BF /* Camera */ = {
+			isa = PBXGroup;
+			children = (
+				FFFD08671E9B2CCF0038AD66 /* PlacesLoader.swift */,
+				FFFD086D1E9B3F0A0038AD66 /* PlaceAnnotation.swift */,
+				FFFD086F1E9B48CF0038AD66 /* AnnotationView.swift */,
+			);
+			name = Camera;
 			sourceTree = "<group>";
 		};
 		FF99BE031E936BAA009D874B /* UI */ = {
@@ -253,10 +285,6 @@
 		FF99BE061E936BC5009D874B /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
-				FFFD08661E9B2CCF0038AD66 /* Place.swift */,
-				FFFD08671E9B2CCF0038AD66 /* PlacesLoader.swift */,
-				FFFD086D1E9B3F0A0038AD66 /* PlaceAnnotation.swift */,
-				FFFD086F1E9B48CF0038AD66 /* AnnotationView.swift */,
 				FFDC3D101E823F7A0013CB7F /* ViewController.swift */,
 				A01418251E93FD0400390CAF /* Places */,
 				A01418241E93FCF900390CAF /* Config */,
@@ -290,6 +318,8 @@
 		FFDC3D0D1E823F790013CB7F /* SquirrelTrip */ = {
 			isa = PBXGroup;
 			children = (
+				FF2E10011EEA3A4200DC40BF /* FirebaseServices */,
+				FF2E10021EEA3A5100DC40BF /* Models */,
 				FFFD086C1E9B30230038AD66 /* Complements */,
 				A014181A1E93EBDB00390CAF /* Images */,
 				FF99BE061E936BC5009D874B /* ViewControllers */,
@@ -444,7 +474,7 @@
 					FFDC3D0A1E823F790013CB7F = {
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = T94L48M7HD;
-						ProvisioningStyle = Manual;
+						ProvisioningStyle = Automatic;
 					};
 					FFDC3D1E1E823F7C0013CB7F = {
 						CreatedOnToolsVersion = 8.2.1;
@@ -570,6 +600,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FFFD08611E9B2BD50038AD66 /* DebugMapViewController.swift in Sources */,
+				FF2E10071EEA3E5400DC40BF /* PlacesDownloadedViewController.swift in Sources */,
 				FF99BDF61E936B7D009D874B /* LoginViewController.swift in Sources */,
 				FFFD085C1E9B2BD50038AD66 /* ARAnnotation.swift in Sources */,
 				FFFD08681E9B2CCF0038AD66 /* Place.swift in Sources */,
@@ -597,6 +628,7 @@
 				A01418281E940FB600390CAF /* SquirrelTrip.xcdatamodeld in Sources */,
 				FFFD086B1E9B2D8C0038AD66 /* PlacesCameraModeViewController.swift in Sources */,
 				FFFD08601E9B2BD50038AD66 /* ARViewController.swift in Sources */,
+				FF2E10041EEA3B1E00DC40BF /* PlacesListFirebase.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -749,11 +781,13 @@
 			baseConfigurationReference = F0E43F95A0E0AF465E2D655B /* Pods-SquirrelTrip.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = T94L48M7HD;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = SquirrelTrip/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = GastandoTenis.SquirrelTrip;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -763,11 +797,13 @@
 			baseConfigurationReference = EC0A73D17C9659A4B2B3DE7B /* Pods-SquirrelTrip.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = T94L48M7HD;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = SquirrelTrip/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = GastandoTenis.SquirrelTrip;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
